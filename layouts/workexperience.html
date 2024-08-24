@@ -21,7 +21,33 @@
 
     <!-- Custom styles for this template -->
     <link href="../css/resume.min.css" rel="stylesheet">
+    <style>
+      .d-flex1 {
+        display: flex;                /* Enables flexbox layout */
+        justify-content: space-between; /* Distributes space between items, pushing them to the ends */
+        align-items: center;          /* Vertically centers items within the container */
+        width: 100%;                  /* Ensures the container takes the full width of its parent */
+      }
+      .grid-container {
+  display: grid;                /* Use grid layout */
+  grid-template-columns: 1fr 1fr; /* Create two equal columns */
+  align-items: center;          /* Center items vertically within their grid areas */
+  width: 100%;                  /* Ensure the grid container spans the full width of its parent */
+  border: 1px solid #ddd;       /* Optional: Border to visualize the grid container */
+}
 
+.job-title {
+  font-size: 130%;
+  color: #003c3c;
+  text-align: left;             /* Align text to the left within its grid column */
+}
+
+.date {
+  text-align: right;            /* Align text to the right within its grid column */
+  color: #0000FF;               /* Blue color for the date text */
+}
+
+    </style>
   </head>
 
   <body id="page-top" style="background-color:rgb(245, 245, 245);">
@@ -88,27 +114,33 @@
               <!--<h3 class="mb-1">Research Experience</h3> 
                 <ol reversed class = "workexp"  style="font-weight: bold;"> 
                   --->
-                  <li class = "workexp" style="list-style-type: none;">
-                    <div class="resume-item d-flex flex-column flex-md-row">
-                      <div class="resume-content mr-auto">
-                        <h3 class="mb-0" style="font-size:130%;color:#003c3c">Software Developer</h3>
-                        <div style="font-size: 110%";>Softwel Pvt Ltd, Baneshwor, Ktm</div>
-                        <div class="lead"> <ul style="padding-bottom: 0.75rem;">
-                          <li>Design and Analysis of Multistoried RCC and Steel Structures</li> 
-                          <li>Preparation of Structural Drawings and Structural Reports</li>
-                          <li>Software: Etabs, SAP2000, SAFE, IDEA Statica, Autocad, Excel</li>                        
-                        </ul>
+                  <hr></hr>
+                  <li class="workexp" style="list-style-type: none;">
+                    <div class="resume-item d-grid">
+                      <div class="resume-content">
+                        <div class="d-flex justify-content-between align-items-center">
+                          <h3 class="mb-0" style="font-size:130%; color:#003c3c;">Software Developer</h3>
+                          <span class="text-primary">Sep 2023 - Present</span>
                         </div>
-                      </div>
-                      <div class="resume-date text-md-right">
-                        <span class="text-primary">Lalitpur,Nepal <br>Sep 2023 - Present</span>
+                        <div style="font-size: 110%;">Softwel Pvt Ltd, Baneshwor, Ktm</div>
+                        <div class="lead">
+                          <ul style="padding-bottom: 0.75rem;">
+                            <li>Design and Analysis of Multistoried RCC and Steel Structures</li> 
+                            <li>Preparation of Structural Drawings and Structural Reports</li>
+                            <li>Software: Etabs, SAP2000, SAFE, IDEA Statica, Autocad, Excel</li>
+                          </ul>
+                        </div>
                       </div>
                     </div>
                   </li>
+                  <hr></hr>
                   <li class = "workexp" style="list-style-type: none;">
                     <div class="resume-item d-flex flex-column flex-md-row">
                       <div class="resume-content mr-auto">
-                        <h3 class="mb-0" style="font-size:130%;color:#003c3c">Civil Engineer</h3>
+                        <div class="d-flex justify-content-between align-items-center">
+                          <h3 class="mb-0" style="font-size:130%; color:#003c3c;">Civil Engineer</h3>
+                          <span class="text-primary">Sep 2023 - Present</span>
+                        </div>
                         <div style="font-size: 110%";>Aviyaan Consulting Pvt Ltd, Baneshwor, Ktm</div>
                         <div class="lead"> <ul style="padding-bottom: 0.75rem;">
                           <li> Design and analysis of Multistoried RCC and Steel Structures<br>
@@ -118,54 +150,49 @@
                             <li>Conducted surveys and drafted reports for various projects</li>
                           - Capacity Strengthening and Transport System Master Plan of Traffic funded by JAICA<br>
                           - NWASH Survey of Godawari Municipality funded by WATER-AID: Surveyed all existing pipelines and sources of 108 water schemes in Godawari Municipality<br>
-                          - Lift Irrigation Survey at 30 potential sites around the Draudi River in Gorkha</p>
-                          <li>Design and Analysis of Multistoried RCC and Steel Structures</li> 
-                        </ul>
+                          - Lift Irrigation Survey at 30 potential sites around the Draudi River in Gorkha
                         </div>
-                      </div>
-                      <div class="resume-date text-md-right">
-                        <span class="text-primary">Lalitpur,Nepal <br>Sep 2023 - Present</span>
-                      </div>
-                    </div>
-                  </li>
-                  <li class = "workexp" style="list-style-type: none;">
-                    <div class="resume-item d-flex flex-column flex-md-row">
-                      <div class="resume-content mr-auto">
-                        <h3 class="mb-0" style="font-size:130%;color:#003c3c">Math Tutor</h3>
-                        <div style="font-size: 110%";>Space Academy</div>
-                        <div class="lead"> <ul style="padding-bottom: 0.75rem;">
-                            <li>Math Teacher for Engineering Mathematics Vol III</li>                        
-                                tion on the existing pipeline</li>                        
-                        </ul>
-                        </div>
-                      </div>
-                      <div class="resume-date text-md-right">
-                        <span class="text-primary">Aug 2023 - Sep 2023</span>
                       </div>
                     </div>
                   </li>
                   <hr></hr>
-                  <li class = "workexp" style="list-style-type: none;">
-                    <div class="resume-item d-flex flex-column flex-md-row">
-                      <div class="resume-content mr-auto">
-                        <h3 class="mb-0" style="font-size:130%;color:#003c3c">Research Assistant</h3>
-                        <div style="font-size: 110%";>Center for Water Resources, IOE, Pulchowk Campus</div>
-                        <div><i>Enhancing Water Security in Kathmandu Valley through Collaborative Research and Capacity Strengthening</i> </div>                        
-                        <div class="lead"> <ul style="padding-bottom: 0.75rem;">
-                          <li> Full-scale map preparation and water scheduling optimization of the existing distribution network in the
-                            Kapan area</li>    
-                            <li>  Researching and collecting all relevant documents and files for map preparation</li>  
-                              <li> Conducting rigorous site visits and collaborating with engineers, valve operators, and local residents to gather informa-
-                                tion on the existing pipeline</li>                        
-                          <li>Software: AutoCAD, QGIS, Excel</li>                        
-                        </ul>
+                  <li class="workexp" style="list-style-type: none;">
+                    <div class="resume-item d-grid">
+                      <div class="resume-content">
+                        <div class="d-flex justify-content-between align-items-center">
+                          <h3 class="mb-0" style="font-size:130%; color:#003c3c;">Math Teacher</h3>
+                          <span class="text-primary">Sep 2023 - Present</span>
                         </div>
-                      </div>
-                      <div class="resume-date text-md-right">
-                        <span class="text-primary">May 2023 - Aug 2023</span>
+                        <div style="font-size: 110%;">Space Academy, Baneshwor</div>
+                        <div class="lead">
+                          <ul style="padding-bottom: 0.75rem;">
+                            <li>Engineering Mathematics Volume-III</li> 
+                          </ul>
+                        </div>
                       </div>
                     </div>
                   </li>
+                  <hr></hr>
+                  <li class="workexp" style="list-style-type: none;">
+                    <div class="resume-item d-flex flex-column flex-md-row">
+                      <div class="resume-content mr-auto">
+                        <div class="d-flex justify-content-between align-items-center">
+                          <h3 class="mb-0" style="font-size:130%; color:#003c3c;">Research Assistant</h3>
+                          <span class="text-primary">May 2023 - Aug 2023</span>
+                        </div>
+                        <div style="font-size: 110%;">Center for Water Resources, IOE, Pulchowk Campus</div>
+                        <div><i>Enhancing Water Security in Kathmandu Valley through Collaborative Research and Capacity Strengthening</i></div>
+                        <div class="lead">
+                          <ul style="padding-bottom: 0.75rem;">
+                            <li>Full-scale map preparation and water scheduling optimization of the existing distribution network in the Kapan area</li>
+                            <li>Conducting rigorous site visits and collaborating with engineers, valve operators, and local residents to gather information on the existing pipeline</li>
+                            <li>Software: AutoCAD, QGIS, Excel</li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  
             </div>
          </div>
         </div>

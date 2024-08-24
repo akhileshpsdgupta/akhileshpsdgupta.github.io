@@ -6303,8 +6303,10 @@ button.bg-dark:focus {
 }
 
 .d-flex {
-  display: -ms-flexbox !important;
-  display: flex !important;
+  display: flex;
+  justify-content: space-between; /* Space between the title and the date */
+  align-items: center; /* Center items vertically */
+  width: 100%; /* Ensure the container takes full width */
 }
 
 .d-inline-flex {
